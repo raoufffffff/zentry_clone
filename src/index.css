@@ -43,7 +43,6 @@ body {
     @apply border border-white/20;
   }
 
-
   .nav-hover-btn {
     @apply relative ms-10 font-general text-xs uppercase text-blue-50 after:absolute after:-bottom-0.5 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-neutral-800 after:transition-transform after:duration-300 after:ease-[cubic-bezier(0.65_0.05_0.36_1)] hover:after:origin-bottom-left hover:after:scale-x-100 dark:after:bg-white cursor-pointer;
   }
@@ -64,7 +63,7 @@ body {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
 
-  .special-font  {
+  .special-font b {
     font-family: "Zentry";
     font-feature-settings: "ss01" on;
   }
@@ -86,7 +85,7 @@ body {
   }
 
   .animated-word {
-    @apply special-font ont-zentry font-black opacity-0;
+    @apply special-font font-zentry font-black opacity-0;
     transform: translate3d(10px, 51px, -60px) rotateY(60deg) rotateX(-40deg);
     transform-origin: 50% 50% -150px !important;
     will-change: opacity, transform;
