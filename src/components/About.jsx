@@ -23,6 +23,7 @@ const About = () => {
       width: "100vw",
       height: "100vh",
       borderRadius: 0,
+      top: 0
     });
   });
 
